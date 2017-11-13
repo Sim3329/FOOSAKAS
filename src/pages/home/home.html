@@ -1,0 +1,42 @@
+<ion-header>
+ 
+  <ion-navbar>
+  	<div id="title">
+    <ion-title>
+     FOOSKA'S 
+     </ion-title>  
+</div>
+
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <div class = "logo">
+    <img src = "assets/img/logo.png"/>
+  </div>
+<br><br>
+<ion-list>
+  <ion-item>
+    <ion-label floating>UserEmail</ion-label>
+    <ion-input type="text" #userEmail></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Password</ion-label>
+    <ion-input type="password" #password></ion-input>
+  </ion-item>
+
+</ion-list>
+
+
+    <button ion-button block (click)="signInUser()">Sign In</button>
+
+  <div id="topButtons">
+
+<button ion-button color = "light" (click)="register()">Register</button>
+
+</div> 
+</ion-content>
+
+  

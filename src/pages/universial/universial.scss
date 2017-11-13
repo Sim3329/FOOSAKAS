@@ -1,0 +1,31 @@
+page-universial {
+	img.universialimage{
+	min-height: 100%;
+	min-width: 256px;
+	width:100%;
+	height:auto;
+	position:fixed;
+	top:0;
+	left:0;
+	}
+
+	@media screen and(max-width: 1024px){
+	img.dotonimage{
+	left:50%;
+	margin-left: -512px;
+	}
+	}
+
+
+
+
+
+	.find{
+		position:absolute;
+  		top:85%;
+ 		left:50%;
+  		
+  		transform:translate(-50%, -50%)
+}
+
+}
